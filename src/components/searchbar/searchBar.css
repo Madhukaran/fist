@@ -1,0 +1,38 @@
+.searchBarForm {
+    width: 100%;
+    border: 0;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px !important;
+}
+._searchBar {
+    height: 10vh;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.searchBarIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.searchBarForm:active {
+    border: 0;
+}
+
+.searchBarForm:focus {
+    outline: 0;
+}
+
+.searchBarWidget {
+    display: flex;
+}
+
+.searchBarSplit {
+    margin: 0px !important;
+}

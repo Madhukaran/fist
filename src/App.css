@@ -1,0 +1,37 @@
+.scroll-feed {
+    overflow-y: auto;
+    height: 100vh;
+    /* background-color: rgb(170, 124, 124); */
+}
+.p_options {
+    max-width: 300px;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #aaa; ;   
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .main-component {
+    width: 80%;
+    margin: auto;
+  }
