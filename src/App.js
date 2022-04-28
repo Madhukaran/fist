@@ -6,7 +6,6 @@ import HomePage from './homepage';
 import config from './config.json';
 
 function App() {
-  console.log(config.subRoute);
   return (
     <Router basename={config.subRoute}>
       <Routes>

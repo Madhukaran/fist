@@ -1,0 +1,96 @@
+.signup_main_component {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute
+}
+
+.signup_main_component .left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+.signup_main_component .left .heading {
+    font-size: 100px;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    margin-bottom: 0;
+    letter-spacing: 10px;
+    box-shadow: 0, 10px 10px 8px rgb(206, 206, 206), 15px 15px 8px rgb(156, 156, 156)
+}
+.signup_main_component .left .heading_helper {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    letter-spacing: 10px;
+}
+.signup_main_component .left .seperator {
+    color: black;
+    width: 80%;
+    height: 1px;
+    margin: 0 0 0 0;
+}
+
+.signup_main_component .right {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: absolute;
+    float: right;
+    right: 0;
+}
+
+.signup_main_component .right .signup_form {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_main_component .right .form_wrapper {
+    width: 70%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.signup_form .form-control {
+    margin: 10px;
+    /* border  */
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.signup_form .form-control:focus {
+    margin: 10px;
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.form_wrapper .create_account {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.signup_gif {
+    position: relative;
+    z-index: 99999;
+    width: 700px;
+    margin: 235px 0 0 250px;
+}
